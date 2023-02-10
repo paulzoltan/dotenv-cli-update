@@ -1,0 +1,24 @@
+{
+  "name": "dotenv-cli-update",
+  "version": "1.0.0",
+  "description": "A command-line interface tool that modifies a .env file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dotenv",
+    "cli",
+    "update"
+  ],
+  "author": "Paul Zoltán",
+  "license": "ISC",
+  "bin": "cli.js",
+  "dependencies": {
+    "update-dotenv": "^1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulzoltan/dotenv-cli-update.git"
+  }
+}
